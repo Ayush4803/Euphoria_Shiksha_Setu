@@ -1,12 +1,108 @@
-# React + Vite
+# Shiksha Setu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Shiksha Setu** is a platform for book donation and fund donation aimed at supporting education. Users can **donate books**, **donate funds**, and **receive books**. The platform integrates **Razorpay** for seamless payment processing.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Donate Books**: Users can contribute books to the NGO.
+- **Donate Funds**: Users can make monetary donations via **Razorpay**.
+- **Get Books**: Users can request books donated by others.
+- **Payment Integration**: Razorpay API integration for secure payments.
+- **User Authentication**: Login and registration for users.
+- **Responsive UI**: Mobile-friendly interface with clean navigation.
+- **Search & Filter**: Find books easily using search and category filters.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- **Frontend**: React, React Router, Tailwind CSS  
+- **Backend**: Node.js, Express  
+- **Database**: MongoDB  
+- **Payment Gateway**: Razorpay  
+
+---
+
+## Pages / Components
+
+- **Home**: Overview and navigation  
+- **Donate Book**: Form to donate books  
+- **Donate Fund**: Payment page integrated with Razorpay  
+- **Get Book**: Browse available books and request  
+- **About Us**: Information about Shiksha Setu  
+- **Contact Us**: Contact form for inquiries  
+- **Cart**: Manage book selections (if needed)  
+- **Login / Signup**: User authentication  
+
+---
+
+## Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone <your-repo-url>
+   cd shiksha-setu
+Install dependencies
+
+npm install
+
+
+Set environment variables
+Create a .env file:
+
+
+RAZORPAY_KEY_ID=<your-razorpay-key-id>
+RAZORPAY_KEY_SECRET=<your-razorpay-key-secret>
+
+
+Run the project
+
+npm run dev
+
+
+Register or login as a user.
+
+Navigate to Donate Book or Donate Fund to contribute.
+
+Use the Get Book page to browse or request books.
+
+For payments, use Razorpay test cards in Test Mode.
+
+Razorpay Test Cards
+Card Number	Expiry	CVV	Notes
+4111 1111 1111 1111	Any future date	111	Visa, success
+5454 5454 5454 5454	Any future date	111	Mastercard, success
+4000 0000 0000 0002	Any future date	111	Visa, failure
+5200 0000 0000 0007	Any future date	111	Mastercard, failure
+Contributing
+
+Fork the repository.
+
+Create a new branch: git checkout -b feature/your-feature.
+
+Commit your changes: git commit -m "Add feature".
+
+Push to the branch: git push origin feature/your-feature.
+
+Open a Pull Request.
+
+License
+
+This project is licensed under the MIT License.
+
+Contact
+
+Project Name: Shiksha Setu
+
+Purpose: Book donation NGO platform
+
+Email / Contact: <your-email>
+
+
+---
+
+I can also **make a more visually appealing version with badges, screenshots, and a “Getting Started” GIF** for your GitHub repo, which looks more professional for NGOs and donors.  
+
+Do you want me to do that?
