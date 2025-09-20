@@ -100,9 +100,3 @@ Purpose: Book donation NGO platform
 
 Email / Contact: <your-email>
 
-
----
-
-I can also **make a more visually appealing version with badges, screenshots, and a “Getting Started” GIF** for your GitHub repo, which looks more professional for NGOs and donors.  
-
-Do you want me to do that?
