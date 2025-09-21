@@ -41,7 +41,8 @@ The platform integrates **Razorpay** for seamless payment processing.
 # SUCCESFULL PAYMENT_2
 ![SUF2_SS](https://github.com/user-attachments/assets/1c028345-8fc7-4c97-aed0-0c22409b0078)
 
-
+# Testimony 
+<img width="1341" height="821" alt="image" src="https://github.com/user-attachments/assets/dbcb4bc5-aa7a-4c84-993a-e50fbb7230fc" />
 
 ## Tech Stack
 
@@ -63,30 +64,35 @@ The platform integrates **Razorpay** for seamless payment processing.
 - **Cart**: Manage book selections (if needed)  
 - **Login / Signup**: User authentication  
 
+## Future Scope
+
+- 📘 Addition of **competitive exam books** (IIT JEE, NEET, GATE, UPSC, etc.) to help students prepare.  
+- 📦 Book exchange feature among users.  
+- ⭐ Rating & review system for donated books.  
+- 📊 Donation impact dashboard to track contributions.  
+- 🌍 Multi-language support for wider accessibility.  
+
 ---
 
 ## Installation
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone <repo_name>
    cd shiksha-setu
 Install dependencies
 
-bash
-Copy code
+
 npm install
 Set environment variables
 Create a .env file:
 
 env
-Copy code
 RAZORPAY_KEY_ID=<your-razorpay-key-id>
 RAZORPAY_KEY_SECRET=<your-razorpay-key-secret>
 Run the project
 
-bash
-Copy code
+
 npm run dev
 Usage
 Register or login as a user.
@@ -97,39 +103,20 @@ Use the Get Book page to browse or request books.
 
 For payments, use Razorpay test cards in Test Mode.
 
-Razorpay Test Cards
-Card Number	Expiry	CVV	Notes
-4111 1111 1111 1111	Any future date	111	Visa, success
-5454 5454 5454 5454	Any future date	111	Mastercard, success
-4000 0000 0000 0002	Any future date	111	Visa, failure
-5200 0000 0000 0007	Any future date	111	Mastercard, failure
+# Razorpay Test Cards
+- Card Number	Expiry	CVV	Notes
+- 4111 1111 1111 1111	Any future date	111	Visa, success
+- 5454 5454 5454 5454	Any future date	111	Mastercard, success
+- 4000 0000 0000 0002	Any future date	111	Visa, failure
+- 5200 0000 0000 0007	Any future date	111	Mastercard, failure
 
-Contributing
-Fork the repository.
 
-Create a new branch:
+# License
+- This project is licensed under the MIT License.
 
-bash
-Copy code
-git checkout -b feature/your-feature
-Commit your changes:
+# Contact
+- Project Name: Shiksha Setu
 
-bash
-Copy code
-git commit -m "Add feature"
-Push to the branch:
+- Purpose: Book donation NGO platform
 
-bash
-Copy code
-git push origin feature/your-feature
-Open a Pull Request.
-
-License
-This project is licensed under the MIT License.
-
-Contact
-Project Name: Shiksha Setu
-
-Purpose: Book donation NGO platform
-
-Email / Contact: <your-email>
+- Email / Contact: <your-email>
